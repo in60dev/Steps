@@ -60,11 +60,6 @@
 		18E3D95C2AD4C06D00E33E0F /* MonthStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D95A2AD4C06D00E33E0F /* MonthStepsView.swift */; };
 		18E3D95D2AD4C06D00E33E0F /* NewWeekStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3D95B2AD4C06D00E33E0F /* NewWeekStepsView.swift */; };
 		18F1F9E52956362E00156D4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1F9E42956362E00156D4C /* Constants.swift */; };
-		18F27C0A2ACBD26B00413DB4 /* StepsConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 18F27C092ACBD26B00413DB4 /* StepsConfig.xcconfig */; };
-		18F27C0B2ACBD26B00413DB4 /* StepsConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 18F27C092ACBD26B00413DB4 /* StepsConfig.xcconfig */; };
-		18F27C0D2ACBD2F500413DB4 /* StepsConfigTemplate.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 18F27C0C2ACBD2F500413DB4 /* StepsConfigTemplate.xcconfig */; };
-		18F27C0E2ACBD2F500413DB4 /* StepsConfigTemplate.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 18F27C0C2ACBD2F500413DB4 /* StepsConfigTemplate.xcconfig */; };
-		5E0BDF952ACDB03200F7038E /* MonthStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BDF942ACDB03200F7038E /* MonthStepsView.swift */; };
 		5E687A952ADC75D900015545 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E687A942ADC75D900015545 /* Calorie.swift */; };
 		5E687A962ADC75D900015545 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E687A942ADC75D900015545 /* Calorie.swift */; };
 		5E687A972ADC75D900015545 /* Calorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E687A942ADC75D900015545 /* Calorie.swift */; };
@@ -512,7 +507,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					184E932B29401A97005FE1E0 = {
 						CreatedOnToolsVersion = 14.1;
@@ -559,11 +554,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F27C0D2ACBD2F500413DB4 /* StepsConfigTemplate.xcconfig in Resources */,
 				D547BF0A2ADC8E2D0006D2B4 /* Localizable.xcstrings in Resources */,
 				184E933729401A98005FE1E0 /* Preview Assets.xcassets in Resources */,
 				184E933429401A98005FE1E0 /* Assets.xcassets in Resources */,
-				18F27C0A2ACBD26B00413DB4 /* StepsConfig.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,7 +564,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F27C0B2ACBD26B00413DB4 /* StepsConfig.xcconfig in Resources */,
 				185DB40C2949514E003BCC48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,7 +572,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F27C0E2ACBD2F500413DB4 /* StepsConfigTemplate.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,14 +607,12 @@
 				188042D429527BD700E14D9D /* SettingsViewModel.swift in Sources */,
 				1838FC19296A785E00EAA116 /* GoalView.swift in Sources */,
 				18F1F9E52956362E00156D4C /* Constants.swift in Sources */,
-				1838FC19296A785E00EAA116 /* GoalView.swift in Sources */,
 				64B742AA2AD5C7F000811110 /* BackgroundView.swift in Sources */,
 				18A6D5582AE4A682009374BD /* ProfileView.swift in Sources */,
 				18A6D55A2AE4A690009374BD /* ProfileItemButtonView.swift in Sources */,
 				18E3D95D2AD4C06D00E33E0F /* NewWeekStepsView.swift in Sources */,
 				5E687A9D2ADC761200015545 /* StepsDetailCardView.swift in Sources */,
 				64B742A42AD5C7B300811110 /* UIImage+Ext.swift in Sources */,
-				18F1F9E52956362E00156D4C /* Constants.swift in Sources */,
 				64B742A72AD5C7CF00811110 /* ImageStorage.swift in Sources */,
 				18C81E14294A923B0058138F /* StepsDetailView.swift in Sources */,
 				5E687A992ADC75ED00015545 /* Distance.swift in Sources */,
@@ -641,7 +630,6 @@
 				184E933029401A97005FE1E0 /* StepsApp.swift in Sources */,
 				18A1FB1B294AAB93009B87EF /* Date+Ext.swift in Sources */,
 				80372CDE2AD0C7F200B25DB9 /* GoalViewModel.swift in Sources */,
-				5E0BDF952ACDB03200F7038E /* MonthStepsView.swift in Sources */,
 				184BFB292AD7B4E30063A739 /* ContributorsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -671,7 +659,6 @@
 			files = (
 				804270DD2AD0757E00D48422 /* AddGoalViewTests.swift in Sources */,
 				5E687A9B2ADC75ED00015545 /* Distance.swift in Sources */,
-				804270DD2AD0757E00D48422 /* AddGoalViewTests.swift in Sources */,
 				804270DF2AD0788F00D48422 /* SettingsViewTests.swift in Sources */,
 				802300A52ACF6F880051C404 /* StepsTests.swift in Sources */,
 				5E687A9F2ADC761200015545 /* StepsDetailCardView.swift in Sources */,
@@ -701,6 +688,7 @@
 			baseConfigurationReference = 18F27C092ACBD26B00413DB4 /* StepsConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -762,6 +750,7 @@
 			baseConfigurationReference = 18F27C092ACBD26B00413DB4 /* StepsConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -824,7 +813,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Steps/Preview Content\"";
-				DEVELOPMENT_TEAM = AGU49S8C2X;
+				DEVELOPMENT_TEAM = 6DHFSBH2T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Steps/Info.plist;
@@ -865,7 +854,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Steps/Preview Content\"";
-				DEVELOPMENT_TEAM = AGU49S8C2X;
+				DEVELOPMENT_TEAM = 6DHFSBH2T2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Steps/Info.plist;
@@ -903,7 +892,7 @@
 				CODE_SIGN_ENTITLEMENTS = StepsWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AGU49S8C2X;
+				DEVELOPMENT_TEAM = 6DHFSBH2T2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StepsWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StepsWidget;
@@ -914,7 +903,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrittanyRima.Steps.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = de.in60.Steps.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -932,7 +921,7 @@
 				CODE_SIGN_ENTITLEMENTS = StepsWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AGU49S8C2X;
+				DEVELOPMENT_TEAM = 6DHFSBH2T2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StepsWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StepsWidget;
@@ -943,7 +932,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BrittanyRima.Steps.Widget;
+				PRODUCT_BUNDLE_IDENTIFIER = de.in60.Steps.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
